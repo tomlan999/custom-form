@@ -61,12 +61,12 @@
 
                 <li>
                   <label>Age</label>
-                  <input type="number" min="1" max="100"/>
+                  <input type="number" min="1" max="100" placeholder="Age" required/>
                 </li>
 
                 <li>
                   <label>Email Address</label>
-                  <input type="email" name="email"/>
+                  <input type="email" name="email" placeholder="example@example.com" required/>
                 </li>
 
                 <li>
@@ -78,6 +78,56 @@
               
               <h2>Tell us About Your Favorite Huskies!</h2>
               <p>Dawg Talk includes great moments in Husky Dawg history.  Tell us which ones you want to hear more about.</p>
+              
+              <ul>
+                <li>
+                  <label>Favorite Husky Quarterback</label>
+                  <select name="quarterback">
+                    <option value="Don Heinrich">Don Heinrich</option>
+                    <option value="Sonny Sixkiller">Sonny Sixkiller</option>
+                    <option value="Warren Moon">Warren Moon</option>
+                    <option value="Mark Brunell">Mark Brunell</option>
+                    <option value="Marques Tuiasosopo">Marques Tuiasosopo</option>
+                    <option value="Jake Locker">Jake Locker</option>
+                    <option value="Jake Browning">Jake Browning</option>
+                  </select>
+                </li>
+              
+                <li>
+                  <label>Favorite Husky Coach</label>
+                  <select name="coach">
+                    <option value="Gil Dobie">Gil Dobie</option>
+                    <option value="Jim Owens">Jim Owens</option>
+                    <option value="Don James">The Dawgfather</option>
+                    <option value="Jim Lambright">Lambo</option>
+                    <option value="Rick Neuheisel">Slick Rick</option>
+                    <option value="Keith Gilbertson">Gilby</option>
+                    <option value="Tyrone Willingham">Tyrone Willingham</option>
+                    <option value="Steve Sarkisian">Sark</option>
+                    <option value="Chris Petersen">Chris Petersen</option>
+                  </select>
+                </li>
+                
+                <li>
+                  <label>Favorite Husky Rose Bowl Team</label>
+                  <select name="rose-bowl">
+                    <option value="1924">1924</option>
+                    <option value="1926">1926</option>
+                    <option value="1937">1937</option>
+                    <option value="1944">1944</option>
+                    <option value="1960">1960</option>
+                    <option value="1961">1961</option>
+                    <option value="1964">1964</option>
+                    <option value="1978">1978</option>
+                    <option value="1981">1981</option>
+                    <option value="1982">1982</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="2001">2001</option>
+                  </select>
+                </li>
+              </ul>
               
               <input type="submit" name="submit" value="Sign Up!!!"/>
             </fieldset>
