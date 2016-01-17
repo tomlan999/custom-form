@@ -46,32 +46,32 @@
 
                 <li>
                   <label id="f-name-label">First Name</label>
-                  <input type="text" name="first-name" id="f-name-label" placeholder="First Name" required/>
+                  <input type="text" name="first-name" placeholder="First Name" required/>
                 </li>
 
                 <li>
                   <label id="l-name-label">Last Name</label>
-                  <input type="text" name="last-name" id="l-name-label" placeholder="Last Name" required/>
+                  <input type="text" name="last-name" placeholder="Last Name" required/>
                 </li>
 
                 <li>
-                  <label>Zip Code</label>
-                  <input type="text" required placeholder="98038" pattern="^[0-9]{5}"
+                  <label id="zip-code-label">Zip Code</label>
+                  <input type="text" name="zip" required placeholder="98038" pattern="^[0-9]{5}">
                 </li>
 
                 <li>
-                  <label>Age</label>
-                  <input type="number" min="1" max="100" placeholder="Age" required/>
+                  <label id="age-label">Age</label>
+                  <input type="number" name="age" min="1" max="100" placeholder="Age" required/>
                 </li>
 
                 <li>
-                  <label>Email Address</label>
+                  <label id="email-label">Email Address</label>
                   <input type="email" name="email" placeholder="example@example.com" required/>
                 </li>
 
                 <li>
-                  <label>Help us keep Dawg Talk awesome with a small donation</label>
-                  <input type="number" value="100" placeholder="100" min="0" max="1000"/>
+                  <label id="donation-label">Help us keep Dawg Talk awesome with a small donation</label>
+                  <input type="number" name="donation" value="100" placeholder="100" min="0" max="1000" required/>
                 </li>
 
               </ul>
@@ -81,7 +81,7 @@
               
               <ul>
                 <li>
-                  <label>Favorite Husky Quarterback</label>
+                  <label id="qb-label">Favorite Husky Quarterback</label>
                   <select name="quarterback">
                     <option value="Don Heinrich">Don Heinrich</option>
                     <option value="Sonny Sixkiller">Sonny Sixkiller</option>
@@ -94,7 +94,7 @@
                 </li>
               
                 <li>
-                  <label>Favorite Husky Coach</label>
+                  <label id="coach-label">Favorite Husky Coach</label>
                   <select name="coach">
                     <option value="Gil Dobie">Gil Dobie</option>
                     <option value="Jim Owens">Jim Owens</option>
@@ -109,7 +109,7 @@
                 </li>
                 
                 <li>
-                  <label>Favorite Husky Rose Bowl Team</label>
+                  <label id="rose-bowl-label">Favorite Husky Rose Bowl Team</label>
                   <select name="rose-bowl">
                     <option value="1924">1924</option>
                     <option value="1926">1926</option>
